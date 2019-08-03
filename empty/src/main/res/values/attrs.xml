@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="EasyEmptyView">
+		
+		<attr name="empty_icon" format="reference" />
+		
+		<attr name="empty_type" format="enum">
+			<enum name="button" value="1" />
+			<enum name="view" value="2" />
+		</attr>
+	</declare-styleable>
+</resources>

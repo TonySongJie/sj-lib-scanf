@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">emptyview</string>
+    <string name="empty_default_tip_text">设置提示文字</string>
+</resources>
