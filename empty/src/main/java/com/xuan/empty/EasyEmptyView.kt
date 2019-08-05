@@ -19,7 +19,7 @@ class EasyEmptyView : Button {
         mContext = context
 
         val typedArray = getContext().obtainStyledAttributes(attrs, R.styleable.EasyEmptyView)
-        mEmptyIcon = typedArray.getResourceId(R.styleable.EasyEmptyView_empty_icon, 0)
+        mEmptyIcon = typedArray.getResourceId(R.styleable.EasyEmptyView_empty_icon, R.drawable.icon_empty_default)
 
         when (typedArray.getInteger(R.styleable.EasyEmptyView_empty_type, 1)) {
             2 -> {
@@ -35,6 +35,7 @@ class EasyEmptyView : Button {
         typedArray.recycle()
 
         setEmptyIcon(mEmptyIcon)
+        text = "这里是文字区域，请设置你要显示"
     }
 
     fun setEmptyIcon(@DrawableRes icon: Int) {
