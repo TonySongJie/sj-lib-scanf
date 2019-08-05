@@ -5,19 +5,4 @@
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
 	tools:context=".MainActivity">
-	
-	<com.xuan.empty.EasyEmptyView
-		android:id="@+id/eevMainTest"
-		style="@style/ButtonDefaultStyle"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:padding="8dp"
-		android:text="这是空白页面"
-		android:textSize="16sp"
-		app:empty_type="view"
-		app:layout_constraintBottom_toBottomOf="parent"
-		app:layout_constraintEnd_toEndOf="parent"
-		app:layout_constraintStart_toStartOf="parent"
-		app:layout_constraintTop_toTopOf="parent"
-		tools:ignore="HardcodedText" />
 </android.support.constraint.ConstraintLayout>
